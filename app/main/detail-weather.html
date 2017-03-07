@@ -1,0 +1,25 @@
+
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<ul class="list-group">
+  <li class="list-group-item">{{cityList[selectedItem].city}}</li>
+  <li class="list-group-item">{{cityList[selectedItem].Weather.weather}}<weather-icon weather="cityList.Weather.weather" weather-icon="cityList.Weather.weather"></weather-icon></li>
+  {{cityList.Weather.weather}}
+</ul>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">{{exampleDate | amUtc}} //UTC mode istead of local time jone</div>
+<br/><br/>
+<p>{{message.time | amDateFormat:'dddd, MMMM Do YYYY, h:mm:ss a'}}</p>
+
+<br/><br/>
+<p>{{message.time | amCalendar:referenceTime:formats}}</p>
+
+<span am-time-ago="message.time |  amParse:'YYYY.MM.DD HH:mm:ss'"></span>
+{{message.text}}
+</div>
+
+
+</div>

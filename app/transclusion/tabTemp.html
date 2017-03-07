@@ -1,0 +1,11 @@
+
+<ul class="nav nav-tabs">
+  <li  ng-repeat="item in tabName track by item.id">
+  <a ng-href="#">{{item.name}}</a>
+  </li>
+ 
+</ul>
+ <h3>{{tabClick({aTab: tabName})}}</h3>
+<ng-transclude></ng-transclude>
+
+

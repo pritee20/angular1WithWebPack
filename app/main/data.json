@@ -1,0 +1,126 @@
+[{
+    "city":"Wycombe Wanderers",
+    "Long":-0.800299,
+    "Lat":51.6306,
+    "Weather":{
+          "weather": "clear-day",
+          "temperature_string": "66.3 F (19.1 C)",
+          "temp_f": 66.3,
+          "temp_c": 19.1,
+          "relative_humidity": "65%",
+          "wind_string": "From the NNW at 22.0 MPH Gusting to 28.0 MPH",
+          "wind_dir": "NNW",
+          "wind_degrees": 346,
+          "wind_mph": 22.0,
+          "wind_gust_mph": "28.0",
+          "wind_kph": 35.4,
+          "wind_gust_kph": "45.1",
+          "pressure_mb": "1013"            
+    }
+  },
+  {
+    "city":"Livingston",
+    "Long":-3.52207,
+    "Lat":55.8864,
+    "Weather":{
+        "weather": "partly-cloudy-day",
+          "temperature_string": "50.18 F (10.1 C)",
+          "temp_f": 50.18,
+          "temp_c": 10.1,
+          "relative_humidity": "85%",
+          "wind_string": "From the NNW at 22.0 MPH Gusting to 28.0 MPH",
+          "wind_dir": "NNW",
+          "wind_degrees": 346,
+          "wind_mph": 22.0,
+          "wind_gust_mph": "28.0",
+          "wind_kph": 35.4,
+          "wind_gust_kph": "45.1",
+          "pressure_mb": "100.1"  
+        
+    }
+  },
+  {
+    "city":"Brighton and Hove Albion",
+    "Long":-0.08014,
+    "Lat":50.8609,
+    "Weather":{
+        "weather": "snow",
+          "temperature_string": "4.28 F (-15.4 C)",
+          "temp_f": 4.28,
+          "temp_c": -15.4,
+          "relative_humidity": "3%",
+          "wind_string": "From the NNW at 22.0 MPH Gusting to 28.0 MPH",
+          "wind_dir": "NNW",
+          "wind_degrees": 346,
+          "wind_mph": 22.0,
+          "wind_gust_mph": "28.0",
+          "wind_kph": 35.4,
+          "wind_gust_kph": "45.1",
+          "pressure_mb": "1013"  
+        
+    }
+  },
+           {
+    "city":"San Fransisco",
+    "Long":-0.08014,
+    "Lat":50.8609,
+    "Weather":{
+        "weather": "fog",
+          "temperature_string": "36.32 F (2.4 C)",
+          "temp_f": 36.32,
+          "temp_c": 2.4,
+          "relative_humidity": "45%",
+          "wind_string": "From the NNW at 22.0 MPH Gusting to 28.0 MPH",
+          "wind_dir": "NNW",
+          "wind_degrees": 346,
+          "wind_mph": 22.0,
+          "wind_gust_mph": "0.0",
+          "wind_kph": 35.4,
+          "wind_gust_kph": "45.1",
+          "pressure_mb": "3"  
+        
+    }
+  },
+           {
+    "city":"New Jersy",
+    "Long":-0.08014,
+    "Lat":50.8609,
+    "Weather":{
+          "weather": "wind",
+          "temperature_string": "44.96 F (7.2 C)",
+          "temp_f": 44.96,
+          "temp_c": 7.2,
+          "relative_humidity": "6%",
+          "wind_string": "From the NNW at 22.0 MPH Gusting to 28.0 MPH",
+          "wind_dir": "NNW",
+          "wind_degrees": 346,
+          "wind_mph": 22.0,
+          "wind_gust_mph": "2.0",
+          "wind_kph": 35.4,
+          "wind_gust_kph": "45.1",
+          "pressure_mb": "346"  
+        
+    }
+  }, 
+  {
+    "city":"Washington",
+    "Long":-0.08014,
+    "Lat":50.8609,
+    "Weather":{
+          "weather": "rain",
+          "temperature_string": "29.1 F (-1.6 C)",
+          "temp_f": 29.1,
+          "temp_c": -1.6,
+          "relative_humidity": "99%",
+          "wind_string": "From the NNW at 22.0 MPH Gusting to 28.0 MPH",
+          "wind_dir": "NNW",
+          "wind_degrees": 346,
+          "wind_mph": 22.0,
+          "wind_gust_mph": "4.0",
+          "wind_kph": 35.4,
+          "wind_gust_kph": "45.1",
+          "pressure_mb": "2028"  
+        
+    }
+  }
+]

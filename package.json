@@ -1,0 +1,32 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "devloping app with angular and webpack",
+  "main": "index.js",
+  "dependencies": {
+    "angular-moment": "^1.0.1",
+    "moment": "^2.17.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "devDependencies": {
+    "angular-ui-bootstrap": "^2.5.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.10.0",
+    "less-loader": "^2.2.3",
+    "lodash": "^4.17.4",
+    "ng-lodash": "^0.2.3",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.1",
+    "ui-bootstrap": "^0.1.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/webpack-dev-server --content-base app",
+    "build": "NODE_ENV=production node_modules/.bin/webpack && app/index.html dist/index.html"
+  },
+  "author": "pritee tanwar",
+  "license": "ISC"
+}

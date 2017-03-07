@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app" ng-state="">
+<head>
+	<meta charset="UTF-8">
+	<base href="/">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+		 <div ng-view></div> 
+
+
+<div ng-controller="newCtrl">
+<my-tabs>
+  <my-pane title="Hello">
+    <p>Lorem ipsum dolor sit amet</p>
+  </my-pane>
+
+  <my-pane title="World">
+    <em>Mauris elementum elementum enim at suscipit.</em>
+    <p><a href ng-click="i = i + 1">counter: {{i || 0}}</a></p>
+  </my-pane>
+
+</my-tabs>
+</div>
+
+
+<div ng-controller="tabCtrl">
+<tab tab-name="tab" tab-click="showmeTabContent(aTab)">
+	<tab-content></tab-content> 
+</tab>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="bundle.js"></script>
+	<script type="text/javascript" src="./skyicon.js"></script>
+
+</body>
+</html>
